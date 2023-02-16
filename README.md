@@ -1,4 +1,4 @@
-# Melvor Idle Mod Locked Out
+## Melvor Idle Mod Locked Out
 # Introduction
 This is a mod for Melvor Idle. The Goal of this mod is to make a new gamemode (similar to how HCCO is different from hardcore)
 
