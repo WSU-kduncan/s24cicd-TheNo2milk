@@ -14,9 +14,9 @@ For Example:
 
 
 
-##Examples
+## Examples
 
-###Early Example:
+### Early Example:
 
 You have Woodcutting Lvl:10
 and Firemaking Lvl:1
@@ -24,7 +24,7 @@ If you want to unlock any other skill
 you must get Woodcutting to Lvl:20
 and also get Firemaking to Lvl:10
 
-###Late Example:
+### Late Example:
 
 You've been unlocking all non-combat skills in order of the side-bar(Wood,Fish,Fire,Cook,etc.)
 To unlock the 14th Skill (in this case Summoning
@@ -36,6 +36,6 @@ etc etc.
 Fishing Lvl:120
 Woodcutting Lvl:120 & any one Type of Wood Mastery Lvl:99
 
-##Be Warned:
+## Be Warned:
 
 I'm a slow coder and there is a chance I might never finish this and/or never touch it again before/after finishing it.
