@@ -21,7 +21,7 @@
 
 #### The GitHub Workflow only triggers when:
 * a push to the main branch happens
-* a tag event matches the version pattern [v*.*.*]
+* a tag event matches the version pattern [v #.#.# ]
 * a pull request targets the main branch
 
 #### The Github Workflow does the following:
