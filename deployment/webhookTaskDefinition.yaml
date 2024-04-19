@@ -1,0 +1,12 @@
+endpoint: "/webhook"
+method: "POST"
+headers:
+  Content-Type: "application/json"
+body:
+  secret: "secret_key"
+action:
+  type: "exec"
+  command: "restart_containers.sh"
+  response:
+    status: 200
+    body: "Webhook received and processed successfully"
