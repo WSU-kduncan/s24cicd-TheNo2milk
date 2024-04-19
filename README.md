@@ -67,8 +67,8 @@
 2. Create a hooks.yaml file
 3. Put the following in that yaml file
 > - id: redeploy-webhook
-  execute-command: "/var/scripts/redeploy.sh"
-  command-working-directory: "/var/webhook"
+>  execute-command: "/var/scripts/redeploy.sh"
+>  command-working-directory: "/var/webhook"
 4. Run Webhook
 > webhook_path -hooks hooks.yaml -verbose
 
@@ -89,17 +89,17 @@
 * edit the webhook.service file at /etc/systemd/system/webhook.service
 > Add the following:
 > [Unit]
-  Description=Webhook Listener
-  After=network.target
+> Description=Webhook Listener
+> After=network.target
 
-  [Service]
-  ExecStart=/usr/local/bin/webhook -hooks hooks.yaml_path -verbose
-  WorkingDirectory=webhookDirectory_path
-  Restart=always
-  RestartSec=3
+> [Service]
+> ExecStart=/usr/local/bin/webhook -hooks hooks.yaml_path -verbose
+> WorkingDirectory=webhookDirectory_path
+> Restart=always
+> RestartSec=3
 
-  [Install]
-  WantedBy=multi-user.target
+> [Install]
+> WantedBy=multi-user.target
 * reload the system and start webhook
 > sudo systemctl daemon-reload & sudo systemctl start webhook
 * Enable Startup on boot
